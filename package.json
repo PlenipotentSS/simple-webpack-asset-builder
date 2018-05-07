@@ -1,7 +1,7 @@
 {
-  "name": "css_builder",
+  "name": "simple-webpack-asset-builder",
   "version": "1.0.0",
-  "description": "Website for Simple CSS Building via SCSS",
+  "description": "Website for Simple CSS / JS Building via SCSS / JS / JSX",
   "main": "webpack.config.js",
   "dependencies": {
     "autoprefixer": "^8.3.0",
@@ -17,6 +17,11 @@
     "script-loader": "^0.7.2",
     "style-loader": "^0.8.3",
     "url-loader": "^1.0.1",
+    "raw-loader": "^0.5.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",.
+    "react_ujs": "^2.4.4",
+    "request": "^2.85.0",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^3.1.3"
   },
@@ -33,7 +38,11 @@
     "@babel/preset-env": "^7.0.0-beta.40",
     "@babel/register": "^7.0.0-beta.40",
     "babel-loader": "^8.0.0-beta.2",
-    "extract-text-webpack-plugin": "^3.0.2"
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "webpack-cli": "^2.0.15"
   },
   "browserslist": [
     "> 1%",

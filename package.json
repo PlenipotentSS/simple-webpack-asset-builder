@@ -1,5 +1,5 @@
 {
-  "name": "css_builder",
+  "name": "simple-webpack-asset-builder",
   "version": "1.0.0",
   "description": "Website for Simple CSS Building via SCSS",
   "main": "webpack.config.js",

@@ -1,0 +1,43 @@
+{
+  "name": "css_builder",
+  "version": "1.0.0",
+  "description": "Website for Simple CSS Building via SCSS",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "autoprefixer": "^8.3.0",
+    "fast-sass-loader": "^1.4.2",
+    "node-bourbon": "^4.2.8",
+    "node-gyp": "^3.6.2",
+    "node-neat": "^1.7.2",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.4",
+    "webpack-cli": "^2.0.15",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.8.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "webpack -v",
+    "dev": "webpack --watch --watch-poll",
+    "dist": "webpack"
+  },
+  "author": "Steven Stevenson",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.2",
+    "extract-text-webpack-plugin": "^3.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 5 versions",
+    "IE > 8"
+  ]
+}
